@@ -1,0 +1,155 @@
+/* STYLE SECTIONING TAGS */
+*{
+    margin: 0px; 
+    padding: 3px;
+  }
+  body {
+    text-align: center;
+    background-color: FFFFF0;
+  }
+  
+  /* STYLE TEXT */
+  
+  h1 {
+    color:252323;
+    font-family:"Georgia", serif; 
+    text-align: center; 
+    font-size: 70px; 
+    font-weight: 2000;
+    padding: 20px; 
+    letter-spacing: 0px;
+  }
+  
+  main{
+    margin-top:100; 
+    margin-bottom: 100; 
+    margin-right: 100;
+    margin-left: 100;
+    text-align: center;
+    
+  }
+  
+  h2 {
+    color: #252323; 
+    font-family:"Georgia", monospace; 
+    text-align: center; 
+    font-size: 40px;
+    padding: 20px; 
+    font-weight: bold; 
+  }
+  
+  h3 {
+    color: #252323; 
+    font-family:"Georgia", monospace; 
+    text-align: center; 
+    font-size: 25px;
+    padding: 15px; 
+    font-weight: bold; 
+  }
+
+  h4 {
+    color: #252323; 
+    font-family:"Georgia", monospace; 
+    text-align: center; 
+    font-size: 20px;
+    padding: 10px; 
+    font-weight: 400; 
+  }
+  
+  p {
+    color: #252323; 
+    font-family:"Georgia", monospace; 
+    text-align: center; 
+    font-size: 20px;
+    font-weight: 400; 
+  }
+  
+  a {
+    color: #73877B; 
+    font-family:"Georgia", monospace; 
+    text-align: center; 
+    font-size: 28px;
+    font-weight: bold; 
+  }
+  
+  /* STYLE IMAGES */
+  img {
+    max-width: 600px; 
+    max-height: 600px;
+    
+    padding: 0px; 
+  }
+  
+  .cool{
+    color: 70798C;
+  }
+  
+  #cat{
+    border-radius: 10%; 
+  }
+  
+  #personalityQuiz {
+    max-width: 1000px; 
+    max-height: 1500px; 
+  }
+  
+  #activistToolkit {
+    max-width: 1000px; 
+    max-height: 1500px;
+  }
+  
+  /* STYLE NAV BAR */
+  ul {
+    list-style-type: none;
+    background-color: #DFD5C3; 
+    overflow: hidden; 
+    padding: 20px;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 35px; 
+    font-family:"Georgia", monospace; 
+    padding: 1em; 
+    font-weight: normal; 
+  }
+  
+  li a: hover {
+    background color: #C2B6A1; 
+  }
+
+  /* Override CSS */
+.left-align {
+  text-align: left !important;
+}
+
+.right-align {
+  text-align: right !important;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #73877B;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #DFD5C3;
+}
+
+
